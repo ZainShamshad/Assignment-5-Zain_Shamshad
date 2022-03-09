@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(23, 35, 51);
+    color: white;
+    clear: both;
+    min-height: calc(100% - 71px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* mat-form-field  */
+input{
+    margin: 0.5%;
+    padding: 5px;
+    width: 30%;
+    height: 30px;
+    background-color: rgb(246, 245, 245);
+    color: rgb(23, 35, 51);
+    border: none;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+}
+
+
+input:focus, input:active{
+    outline: none;
+    border:none;
+    border-bottom: 3px solid rgb(0, 255, 42);
+    border-radius: 5px;
+}
+
+/* mat-form-field input::placeholder{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+} */
+
+/* .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(160, 160, 160);
+    color: white;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  } */
+
+/* mat-autocomplete{
+    background-color: white;
+    color: rgb(23, 35, 51);
+    width: 90%;
+    margin: 5%;
+    padding: 5px;
+    height: 10px;
+} */
+
+/* ul{ */
+  /* columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3; */
+  /* list-style: none; */
+/* } */
+
+.card {
+    /* height: 100%; */
+    /* max-width: 30%; */
+    height: 30%; 
+    max-width: 30%;
+    margin: 0.5%;
+    background-color: rgb(246 , 245, 245);
+    color: rgb(23, 35, 51);
+    display: inline-block;
+}
+
+.card mat-card-title,mat-card-content,mat-card-content p,mat-card-actions{
+    background-color: transparent;
+    color: rgb(23, 35, 51);
+}
+
+.card mat-card-subtitle{
+    background-color: transparent;
+    color: rgb(160, 160, 160);
+}
+.card mat-card-content p{
+    margin: 2px;
+    overflow: hidden;
+    /* white-space: normal; 
+    text-overflow: ellipsis; */
+}
+
+.expanded{
+    max-height: fit-content;
+}
+.collapsed{
+    max-height: 20px;
+}
+
+.card mat-card-actions{
+    display: flex;
+    flex-direction: row;
+}
+.card mat-card-actions button{
+    background-color: rgb(23, 35, 51);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    max-width: 80px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card mat-card-actions button:hover{
+    background-color: rgb(63, 75, 91);
+}

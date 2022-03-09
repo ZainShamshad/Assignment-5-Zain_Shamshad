@@ -1,0 +1,44 @@
+header{
+    height:50px;
+    width: calc(100%);
+    background-color: rgb(13, 25, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.active{
+    color: green;
+}
+
+header nav{
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul{
+    margin: 0px;
+    padding: 0px;
+    height:auto;
+}
+header nav ul li{
+    height: auto;
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+header nav ul li:hover{
+    cursor:default;
+    font-size: smaller;
+    font-style: bold;
+    color: rgb(166, 168, 168);
+}

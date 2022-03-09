@@ -1,0 +1,83 @@
+<!-- <ngx-spinner 
+  type="ball-scale-multiple"
+></ngx-spinner> -->
+
+<!-- <div style="position: relative;">
+  <ngx-spinner
+  bdColor="rgba(23,35,51,0.8)"
+  size="medium"
+  color="#ffffff"
+  type="ball-scale-multiple"
+  [fullScreen]="false"
+>
+  <p style="font-size: 20px; color: white">Loading...</p>
+</ngx-spinner>
+</div> -->
+
+<!-- <ul >
+    <li > -->
+
+
+
+            <!-- <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Search</mat-label>
+                <input type="text"
+                       placeholder="Start typing blog title"
+                       aria-label="Search"
+                       matInput
+                       [matAutocomplete]="auto">
+                <mat-autocomplete  #auto="matAutocomplete">
+                  <mat-option *ngFor="let blog of filteredBlogs" [value]="blog" | async>
+                    {{blog.title}}
+                  </mat-option>
+                </mat-autocomplete>
+              </mat-form-field> -->
+        <div 
+            style="padding-top: 20px;"
+            *ngIf="blogsTotal>0"
+        >
+            <input type="text" placeholder="Search" name="search" id="search" [(ngModel)]="search" (keyup)="searchBlogs()">
+            <div *ngIf="filteredBlogs.length>0">              
+              <mat-card 
+                class="card"
+                *ngFor="let blog of filteredBlogs; let i = index"
+              >
+                <mat-card-title>{{blog.getTitle()}}</mat-card-title>
+                <mat-card-subtitle>{{blog.getCreator().getUsername() | appender:"Creator: "}}</mat-card-subtitle>
+                <mat-card-content>
+                  <p [ngClass]="blog.expanded ? 'expnaded': 'collapsed'"
+                  >{{blog.getDescription()}}</p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button
+                    (click)="seeAction(i)"
+                  >
+                    {{getAction(i)}}
+                  </button>
+                  <button 
+                    mat-button
+                    (click)="edit(i)"
+                    *ngIf="user.getUsername() === blog.getCreator().getUsername() && (user.getUsername().length>0)"
+                  >
+                    Edit
+                  </button>
+                </mat-card-actions>
+              </mat-card>
+
+            </div>
+
+            <h4 
+              *ngIf=" filteredBlogs.length < 1" >
+              Nothing matches your search
+            </h4>
+        </div>
+
+        <div *ngIf="blogsTotal<=0">
+          <div class="container">
+            <div class="row">
+              <h3>NO BLOGS ARE PUBLISHED YET</h3>
+            </div>
+          </div>
+        </div>
+    <!-- </li>
+</ul> -->

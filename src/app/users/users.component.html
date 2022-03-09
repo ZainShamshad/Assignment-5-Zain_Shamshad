@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="heading">
+            <h3>MANAGE USERS</h3>
+        </div>
+        <table >
+            <thead>
+               Users list
+            </thead>
+            <th>
+                <tr>
+                    <td class="col-1">Sr#.</td>
+                    <td class="col-2">Firstname</td>
+                    <td class="col-3">Lastname</td>
+                    <td class="col-4">Username</td>
+                    <td class="col-5">Email</td>
+                    <td class="col-6">Designation</td>
+                    <td class="col-7">Role</td>
+                    <td class="col-8">Actions</td>
+                </tr>
+            </th>
+            <tbody>
+                <tr *ngFor="let user of users; let i = index">
+                    <td class="col-1">{{i+1}}</td>
+                    <td class="col-2">{{user.getFirstname()}}</td>
+                    <td class="col-3">{{user.getLastname()}}</td>
+                    <td class="col-4">{{user.getUsername()}}</td>
+                    <td class="col-5">{{user.getEmail()}}</td>
+                    <td class="col-6">{{user.getDesignation()}}</td>
+                    <td class="col-7">{{user.getRole()}}</td>
+                    <td class="col-8">
+                        <a class="view" (click)="view(i)"> View </a>
+                        <a class="edit" (click)="edit(i)"> Edit </a>
+                        <a class="delete" (click) ="delete(i)"> Delete </a>
+                        <a (click) ="changeRole(i)"> {{user.getRole() === 'ADMIN'? 'REMOVE ADMIN':'MAKE ADMIN'}} </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<router-outlet></router-outlet>

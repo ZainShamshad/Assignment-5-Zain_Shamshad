@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(23, 35, 51);
+    color: white;
+    clear: both;
+    height: calc(100% - 71px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(23, 35, 51) 50%, rgb(33, 45, 61));
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,rgb(33, 45, 61)50%, rgb(23, 35, 51) );
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(23, 35, 51) 50%, rgb(33, 45, 61));
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,rgb(33, 45, 61) 50%, rgb(23, 35, 51) );
+}

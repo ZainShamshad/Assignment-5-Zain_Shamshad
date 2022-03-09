@@ -1,0 +1,19 @@
+<div class="form">
+    <h3>Write a new blog</h3>
+    <hr/>
+    <br/>
+    <input class="type"  type="text" name="title" id="title" placeholder="type blog title*" [(ngModel)]="title">
+    <br><br>
+    <textarea class="type" name="details" id="details" placeholder="type blog content*" 
+    [(ngModel)]="details"
+     rows="15" cols="115"></textarea> 
+     <pre *ngIf="details.length<1"  [ngStyle]="{'color': 'red'}">Enter atleast {{limit}} characters</pre>
+     <pre *ngIf="(details.length>0)&&(details.length<limit)" >{{limit - details.length}} more to go...</pre>
+     <pre *ngIf="(details.length>0)&&(details.length>=limit)&&(details.length<max_limit)" [ngStyle]="{'color': 'green'}">{{max_limit - details.length}} characters left</pre>
+     <pre *ngIf="(details.length===max_limit)" >{{max_limit}} characters limit reached!</pre>
+     <pre *ngIf="(details.length>max_limit)" [ngStyle]="{'color': 'red'}">{{details.length - max_limit}} characters over</pre>
+    
+     <!-- <hr/> -->
+    <br>
+    <button (click)="create()">{{button_action}}</button>
+</div>

@@ -1,0 +1,13 @@
+.container{
+    height: calc(100% - 71px);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    vertical-align: middle;
+    background-color: rgb(26, 35, 51);
+    color: white;
+}
+
+.row{
+    margin: auto;
+}

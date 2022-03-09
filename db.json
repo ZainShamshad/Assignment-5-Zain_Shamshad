@@ -1,0 +1,300 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "loginAttemptsFailed": 0,
+      "firstname": "Zain",
+      "lastname": "Shamshad",
+      "username": "zain.shamshad",
+      "email": "zain.shamshad@gmail.com",
+      "password": "123",
+      "role": "ADMIN",
+      "designation": "Junior Consultant - App Development",
+      "imagePath": "src\\assets\\user-business-man-front.png",
+      "blocked": false,
+      "FLAG_LIMIT": 3
+    },
+    {
+      "id": 2,
+      "firstname": "Hammad",
+      "lastname": "Ejaz",
+      "username": "hammad.ejaz",
+      "email": "hammad.ejaz@gmail.com",
+      "password": "123",
+      "role": "ADMIN",
+      "imagePath": "src\\assets\\user-blink.png",
+      "designation": "Consultant - App Development",
+      "blocked": false,
+      "loginAttemptsFailed": 0
+    },
+    {
+      "id": 3,
+      "loginAttemptsFailed": 0,
+      "firstname": "Ali",
+      "lastname": "Haider",
+      "username": "ali.haider",
+      "email": "ali.haider@gmail.com",
+      "password": "123",
+      "role": "QA",
+      "designation": "Junior Consultant - App Development",
+      "imagePath": "src\\assets\\boy-happy.jpg",
+      "blocked": false,
+      "FLAG_LIMIT": 3
+    },
+    {
+      "id": 4,
+      "loginAttemptsFailed": 0,
+      "firstname": "Sufyan",
+      "lastname": "Ahmed",
+      "username": "sufyan.ahmed",
+      "email": "sufyan.ahmed@gmail.com",
+      "password": "123",
+      "role": "QA",
+      "designation": "Junior Consultant - App Development",
+      "imagePath": "src\\assets\\business-man-front.jpg",
+      "blocked": false,
+      "FLAG_LIMIT": 3
+    },
+    {
+      "id": 5,
+      "loginAttemptsFailed": 0,
+      "firstname": "AbdulRazzaque",
+      "lastname": "Jawad",
+      "username": "abdulrazzaque.jawad",
+      "email": "abdulrazzaque.jawad@gmail.com",
+      "password": "123",
+      "role": "BLOGGER",
+      "designation": "Junior Consultant - App Development",
+      "imagePath": "src\\assets\\business-man-right.png",
+      "blocked": false,
+      "FLAG_LIMIT": 3
+    },
+    {
+      "id": 6,
+      "loginAttemptsFailed": 0,
+      "firstname": "Rizwan",
+      "lastname": "Mahmood",
+      "username": "rizwan.mahmood",
+      "email": "rizwan.mahmood@gmail.com",
+      "password": "123",
+      "role": "BLOGGER",
+      "designation": "Junior Consultant - App Development",
+      "imagePath": "src\\assets\\business-man-left.jpg",
+      "blocked": false,
+      "FLAG_LIMIT": 3
+    },
+    {
+      "id": 7,
+      "firstname": "Penguin",
+      "lastname": "Atlantic",
+      "username": "penguin.atlantic",
+      "email": "penguin.atlantic@gmail.com",
+      "password": "123",
+      "role": "BLOGGER",
+      "imagePath": "src\\assets\\penguin.png",
+      "designation": "Principal Consultant - Integration",
+      "blocked": false,
+      "loginAttemptsFailed": 0
+    },
+    {
+      "id": 8,
+      "loginAttemptsFailed": 0,
+      "firstname": "User",
+      "lastname": "Name",
+      "username": "user.name",
+      "email": "user.name@gmail.com",
+      "password": "123",
+      "role": "QA",
+      "designation": "Senior Consultant",
+      "imagePath": "src\\assets\\user-blink.png",
+      "blocked": false,
+      "FLAG_LIMIT": 3
+    }
+  ],
+  "blogs": [
+    {
+      "id": 101,
+      "title": "How to Use MATERIAL Card In Angular",
+      "date": "20-5-1997",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 1,
+        "loginAttemptsFailed": 0,
+        "firstname": "Zain",
+        "lastname": "Shamshad",
+        "username": "zain.shamshad",
+        "email": "zain.shamshad@gmail.com",
+        "password": "123",
+        "role": "ADMIN",
+        "designation": "Junior Consultant - App Development",
+        "imagePath": "src\\assets\\business-man-front.png",
+        "blocked": false,
+        "FLAG_LIMIT": 3
+      },
+      "expanded": false
+    },
+    {
+      "id": 102,
+      "title": "How to Use NGX TOASTER In Angular",
+      "date": "28-04-1998",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 8,
+        "firstname": "User",
+        "lastname": "Name",
+        "username": "user.name",
+        "email": "user.name@gmail.com",
+        "password": "123",
+        "role": "BLOGGER",
+        "imagePath": "src\\assets\\user-blink.png",
+        "designation": "Senior Consultant - Cloud & Frameworks",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 103,
+      "title": "How to Create a CUSTOM ATTRIBUTE DIRECTIVE In Angular",
+      "date": "02-06-1999",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 6,
+        "firstname": "Rizwan",
+        "lastname": "Mahmood",
+        "username": "rizwan.mahmood",
+        "email": "rizwan.mahmood@gmail.com",
+        "password": "123",
+        "role": "QA",
+        "imagePath": "src\\assets\\business-man-left.jpg",
+        "designation": "Junior Consultant - App Development",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 104,
+      "title": "Bananas have potassium?",
+      "date": "25-06-2000",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 6,
+        "firstname": "Rizwan",
+        "lastname": "Mahmood",
+        "username": "rizwan.mahmood",
+        "email": "rizwan.mahmood@gmail.com",
+        "password": "123",
+        "role": "QA",
+        "imagePath": "src\\assets\\business-man-left.jpg",
+        "designation": "Junior Consultant - App Development",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 105,
+      "title": "What are the tips to become a successful programmer",
+      "date": "12-12-2012",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 4,
+        "firstname": "Sufyan",
+        "lastname": "Ahmed",
+        "username": "sufyan.ahmed",
+        "email": "sufyan.ahmed@gmail.com",
+        "password": "123",
+        "role": "BLOGGER",
+        "imagePath": "src\\assets\\business-man-front.jpg",
+        "designation": "Junior Consultant - App Development",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 106,
+      "title": "A guide to develop work ethics",
+      "date": "22-10-1996",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 1,
+        "firstname": "Zain",
+        "lastname": "Shamshad",
+        "username": "zain.shamshad",
+        "email": "zain.shamshad@gmail.com",
+        "password": "123",
+        "role": "ADMIN",
+        "imagePath": "src\\assets\\business-man-front.png",
+        "designation": "Junior Consultant - App Development",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 107,
+      "title": "Benefits of implementing routing and gaurds in angular",
+      "date": "20-12-2021",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 4,
+        "firstname": "Sufyan",
+        "lastname": "Ahmed",
+        "username": "sufyan.ahmed",
+        "email": "sufyan.ahmed@gmail.com",
+        "password": "123",
+        "role": "BLOGGER",
+        "imagePath": "src\\assets\\business-man-front.jpg",
+        "designation": "Junior Consultant - App Development",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 108,
+      "title": "What are the best practices in programming",
+      "date": "24-8-1900",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\tThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\nThe Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.\n\n\n\t",
+      "imagePath": "",
+      "creator": {
+        "id": 2,
+        "firstname": "Hammad",
+        "lastname": "Ejaz",
+        "username": "hammad.ejaz",
+        "email": "hammad.ejaz@gmail.com",
+        "password": "123",
+        "role": "ADMIN",
+        "imagePath": "src\\assets\\user-blink.png",
+        "designation": "Consultant - App Development",
+        "blocked": false,
+        "loginAttemptsFailed": 0
+      }
+    },
+    {
+      "id": 113,
+      "title": "New Blog Title",
+      "date": "Wed Mar 09 2022 19:12:23 GMT+0500 (Pakistan Standard Time)",
+      "description": "Newsest blog description",
+      "imagePath": "",
+      "creator": {
+        "id": 1,
+        "loginAttemptsFailed": 0,
+        "firstname": "Zain",
+        "lastname": "Shamshad",
+        "username": "zain.shamshad",
+        "email": "zain.shamshad@gmail.com",
+        "password": "123",
+        "role": "ADMIN",
+        "designation": "Junior Consultant - App Development",
+        "imagePath": "src\\assets\\user-business-man-front.png",
+        "blocked": false,
+        "FLAG_LIMIT": 3
+      },
+      "expanded": false
+    }
+  ]
+}

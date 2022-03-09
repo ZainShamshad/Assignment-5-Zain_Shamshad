@@ -1,0 +1,40 @@
+pre{
+    color: rgb(180, 180, 180);
+    font-size: small;
+    font-style: bold;
+}
+
+input{
+    width: 40%;
+    font-weight: bolder;
+}
+
+.type{
+    padding: 5px;
+    background-color: rgb(246, 245, 245);
+    color: rgb(23, 35, 51);
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 5px;
+    outline: none;
+}
+
+
+/* .type:focus{
+    border: 1px solid green;
+} */
+
+button{
+    clear: both;
+    float: right;
+    /* width: 50%; */
+    background-color: rgb(23, 35, 51);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+button:hover{
+    background-color: rgb(43, 75, 81);
+    cursor: pointer;
+}

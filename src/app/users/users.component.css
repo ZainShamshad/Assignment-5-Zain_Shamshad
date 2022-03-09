@@ -1,0 +1,132 @@
+
+body{
+    min-height: calc(100% - 71px);
+    /* max-height: max-content; */
+    /* height: fit-content; */
+    padding: 10px;
+}
+
+.container{
+    min-height: calc(100% - 91px);
+    height: inherit;
+    padding: 10px;
+    background-color: rgb(23, 35, 51);
+}
+
+.heading{
+    color: white;
+    background-color: rgb(13,25,41);
+    padding: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    margin: 0px;
+}
+
+table{
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    width: 100%;
+    background-color: rgb(33, 45, 61);
+    border-radius: 6px;
+    border: 1px solid rgb(13,25,41);
+}
+
+thead{
+    font-weight: bold;
+    text-align: center;
+}
+th{
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 2px solid rgb(23, 35, 51);
+    border-bottom: 1px solid rgb(23, 35, 51);
+    color: wheat;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: max-content;
+    max-height: fit-content;
+}
+
+td{
+    width: 15%;
+    margin: 3px;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
+
+tbody tr{
+    font-size: smaller;
+    border-radius: 6px;
+}
+
+tbody tr:hover{
+    background-color: green;
+    color: rgb(23, 35, 51);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+tbody tr:nth-child(odd):hover{
+    background-color: green;
+    color: rgb(23, 35, 51);
+    cursor: pointer;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(23, 35, 51);
+}
+
+.col-1{
+    max-width: 10px;
+    margin: 0px;
+}
+.col-2{
+    max-width: 45px;
+    margin: 0px;
+}
+.col-3{
+    max-width: 35px;
+    margin: 0px;
+}
+
+.col-7{
+    max-width: fit-content;
+}
+
+.col-8{
+    justify-content: flex-end;
+    display: flex;
+    max-width: 230px;
+}
+
+a{
+    text-decoration: underline;
+    padding: 2px;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+.view{
+    color: rgb(103, 103, 255);
+}
+
+.edit{
+    color: greenyellow;
+}
+
+.delete{
+    color: red;
+}

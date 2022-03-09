@@ -1,0 +1,25 @@
+<div id="login-comp">
+    <p>{{welcome}}</p>
+    <div id="form">
+        <!-- <img id="avatar" src="assets/login_user.png" alt="login user avatar"/> -->
+        <p id="title_login">. U S E R . C R E D E N T I A L S .</p>
+        <input type="text" id="username" name="username" placeholder="username*" [(ngModel)]="ngusername"/>
+        <input type="password" id="password" name="password" placeholder="password*" [(ngModel)]="ngpassword"/>
+        <div class="buttons-holder">
+            <button (click)="login()">LOGIN</button>
+            <button class="create"
+                (click)="create()">CREATE ACCOUNT</button>
+        </div>
+        
+        <div class="msg">
+            <span class="title">
+                {{title}}
+            </span>
+            <span class="space">
+            </span>
+            <span class="subtitle">
+                {{subtitle}}
+            </span>
+        </div>
+    </div>
+</div>

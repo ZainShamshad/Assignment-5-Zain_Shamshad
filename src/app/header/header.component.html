@@ -1,0 +1,79 @@
+
+
+<header>
+    <nav>
+        <ul>
+            <li [routerLink]="['/home']"
+                routerLinkActive="active"
+            >Home</li>
+
+            <li  routerLink="/blogs"
+            routerLinkActive="active"
+            >Blogs</li>
+
+            <li *ngIf="user.getUsername().length>0"
+                matTooltip="Create a new blog"
+                (click)="openDialog()"
+                >Create Blog</li>
+
+            <li *ngIf="user.getUsername().length>0 && isAdmin()"
+                matTooltip="Manage Users"
+                matTooltipPosition="after"
+                routerLink="/users"
+                routerLinkActive="active"
+                > Users Management</li>
+
+            <li  routerLink="/aboutus"
+            routerLinkActive="active"
+            >About Us</li>
+
+            <li  routerLink="/login"
+                routerLinkActive="active"
+                *ngIf="user.getUsername().length<=0"
+                >Login</li>
+
+            <li *ngIf="user.getUsername().length>0"
+                matTooltip="Click to logout of your account"
+                (click)="logout()"
+                >Logout</li>
+
+            <li *ngIf="user.getUsername().length>0"
+                matTooltip="Currently Logged In User's name"
+                matTooltipPosition="after"
+                >{{bullet}} {{user.getUsername()}} </li>
+                
+        </ul>
+    </nav>
+</header>
+
+
+<!-- <header>
+    <nav>
+        <ul>
+            <li (click)="itemSelected('HOME')"
+            >Home</li>
+            <li (click)="itemSelected('BLOG')"
+            >Blogs</li>
+            <li (click)="itemSelected('CREATEBLOG')" *ngIf="user.getUsername().length>0"
+                matTooltip="Create a new blog"
+                >Create Blog</li>
+            <li (click)="itemSelected('ABOUTUS')"
+            >About Us</li>
+            <li 
+                (click)="itemSelected('LOGIN')" 
+                *ngIf="user.getUsername().length<=0"
+            >
+                Login
+            </li>
+            <li (click)="itemSelected('LOGOUT')" *ngIf="user.getUsername().length>0"
+                matTooltip="Click to logout of your account"
+                >Logout</li>
+            <li *ngIf="user.getUsername().length>0"
+                matTooltip="Currently Logged In User's name"
+                matTooltipPosition="after"
+                >{{bullet}} {{user.getUsername()}} </li>
+            
+        </ul>
+    </nav>
+</header> -->
+
